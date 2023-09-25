@@ -4,7 +4,7 @@ root = Tk()
 root.title("TIME TABLE")
 label=Label(text="JAYPEE UNIVERSITY OF \n INFORMATION TECHNOLOGY",font=("poppins",25,"bold"))
 label.pack()
-image = Image.open('C:\Users\Asus\Documents\GitHub\Timetable\juit1.png')
+image = Image.open('C:\Users\Asus\Documents\GitHub\Timetable\images\juit1.png')
 photo = ImageTk.PhotoImage(image)
 image_label = Label(root, image=photo)
 image_label.image = photo  # Keep a reference to the image to prevent it from being garbage collected
